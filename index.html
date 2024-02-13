@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .landing-page {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            text-align: center; /* Center text */
+        }
+    </style>
+</head>
+<body>
+    <div class="landing-page">
+        <h1>WELCOME SHIMMY!! Are you excited??</h1>
+        <img src="105134797-happy-birthday-card-birthday-letter-text-for-your-design.jpg" alt="">
+        <button onclick="redirectToMainPage()">CLICK ME</button>
+    </div>
+
+    <script>
+        function redirectToMainPage() {
+            window.location.href = "main.html"; // Replace "main.html" with the filename of your main HTML file
+        }
+    </script>
+</body>
+</html>

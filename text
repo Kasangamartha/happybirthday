@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <meta charste="UTF-E">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HAPPY BIRTHDAY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="outside">
+                <h1> Happy birthday SHIMIMANA MAYENJE!!</h1>
+                <h3>My love, todays marks 22 years since you came into this world.You have been such a great man and up to this I thank God for you.You grew up not knowing that you would one day you will love a tech girl,haha.</h3>
+                <div class="inside">
+                    <img src="WhatsApp Image 2024-01-31 at 8.46.39 PM.jpeg"/>
+                    <h3>Today I wanted to let you know how you are such an amazing human.You light up every room you walk into.You leave people with wide smiles. Your personality, your character, your laughter, everything that comes out of you is amazing. I can't stop counting myself luckyyy</h3>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="frames frame1">
+                    <img src="WhatsApp Image 2024-01-31 at 8.46.37 PM (1).jpeg" alt="">
+                    <p>Keep smiling, keep shining</p>
+                </div>
+                <div class="frames frame2">
+                    <img src="WhatsApp Image 2024-01-31 at 8.46.37 PM.jpeg" alt="">
+                    <p>You are amazing and you are loved</p>
+                </div>
+                <div class="frames frame3">
+                    <img src="WhatsApp Image 2024-01-31 at 8.46.38 PM (1).jpeg" alt="">
+                    <p>I will be your biggest supporter,fan and your biggest cheerleader</p>
+                </div>
+                <div class="frames frame4">
+                    <img src="WhatsApp Image 2024-01-31 at 8.46.38 PM.jpeg" alt="">
+                    <p>Eveerytime I look at you my mind is at so much peace,my smile widens more and my heart feels loved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    perspective: 1000px;
+}
+
+transition: 2s;
+    transform-style: preserve-3d;
+
+    .outside, .inside {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    
+    .outside {
+        background-color: blanchedalmond;
+        box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
+        position: absolute;
+        backface-visibility: hidden;
+    }
+    
+    .outside h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: salmon;
+        margin-bottom: 30px;
+    }
+    
+    .inside {
+        background-color: rgb(255, 244, 79);
+        box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
+        transform: rotateY(180deg);
+    }
+    
+    .inside h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .frames {
+        width: 400px;
+        height: 150px;
+        box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 0.8rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: none; /* Remove rotation */
+    }
+    
+    .frames img {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    }
+    
+    .frames p {
+        font-size: 20px;
+        font-weight: bold;
+        transform: rotateY(0deg); /* Adjust rotation */
+    }
+    
+    .frames:nth-child(1) {
+        top: -110px;
+        z-index: -1;
+        background-color: coral;
+    }
+    
+    .frames:nth-child(2) {
+        top: 50px; /* Adjust positioning */
+        background-color: goldenrod;
+    }
+    
+    .frames:nth-child(3) {
+        top: 210px; /* Adjust positioning */
+        background-color: burlywood;
+    }
